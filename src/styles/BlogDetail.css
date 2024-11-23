@@ -1,0 +1,54 @@
+/* 主容器 */
+.blog-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 图片区域 */
+.blog-detail__image {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 300px; /* 使图片呈长条状，可以根据需要调整高度 */
+    object-fit: cover; /* 裁剪图片以适应容器 */
+    display: block;
+}
+
+/* 标题和作者日期 */
+.blog-detail__title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 居中 */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.blog-title {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.blog-meta {
+    font-size: 1rem;
+    color: #555;
+    margin-left: 10px;
+    position: absolute;
+    right: 0; /* 将作者日期放在标题右边 */
+}
+
+/* 内容区域 */
+.blog-content {
+    margin-top: 20px;
+}
+
+.blog-content p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+}

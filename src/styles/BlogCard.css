@@ -1,0 +1,15 @@
+.blog-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.blog-cover {
+    width: 100%;
+    height: auto;
+}
+
+.blog-details {
+    padding: 1rem;
+}

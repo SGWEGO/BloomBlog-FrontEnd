@@ -1,0 +1,8 @@
+.sidebar {
+    width: 300px;
+    margin-left: 1rem;
+}
+.tags span {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
